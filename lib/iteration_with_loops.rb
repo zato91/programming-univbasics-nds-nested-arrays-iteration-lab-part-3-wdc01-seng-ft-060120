@@ -9,7 +9,6 @@ while row_index < src.count do
      a =src[row_index][element_index]
     if a.is_a? String 
     total << a
-    b = total
     
 end
     element_index += 1
@@ -18,5 +17,5 @@ end
   row_index += 1
  
 end
-b.join(" ")
+total.join(" ")
 end
